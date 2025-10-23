@@ -9,23 +9,35 @@
 		<link
 			rel="stylesheet"
 			href="style.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
 	</head>
 	<body>
 		<div class="login-container">
 			<h2>Login to BNCC</h2>
-			<form id="loginForm">
+			<form
+				action=""
+				id="loginForm"
+				style="display: block">
 				<div class="input-box">
 					<input
 						type="text"
-						id="username" />
-					<label for="username"> Username</label>
+						id="username"
+						required />
+					<label for="username">
+						<i class="fa-regular fa-user"></i>
+
 				</div>
 
 				<div class="input-box">
 					<input
 						type="password"
-						id="password" />
-					<label for="password"> Password</label>
+						id="password"
+						required />
+					<label for="password"><i class="fa-solid fa-key"></i> Password</label>
 				</div>
 
 				<div class="remember-me">
